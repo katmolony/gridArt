@@ -1,3 +1,43 @@
+
+/*
+ 
+ Brief description of piece (1 or 2 sentences MAX):
+ ===================================================
+ The art piece follows a regular grid theme using light colours,
+ rounded rectangles, circle targets and gridlines.
+ 
+ 
+ Adobe Color Palette Used:
+ =========================
+ - LINK: https://color.adobe.com/explore?page=2
+ - color 1: babyBlue (189, 228, 255)
+ - color 2: darkBlue (134, 152, 217)
+ - color 3: lilac (174, 161, 240)
+ - color 4: purple (180, 132, 217)
+ - color 5: pink (245, 150, 250)
+ - color WHITE: (255)
+ 
+ Instructions:
+ =============
+ - Pressing any key causes the circles to change position
+ - Pressing the Right mouse button saves the assignment .PNG
+ - Pressing the Left mouse button causes the rectangles to change wight and height
+ - Hoovering the mouse over text will cause the text to repeat
+ - Pressing the mouse over the text on either the top or bottom of the
+ screen will cause the text to change colour
+ 
+ Known bugs/problems:
+ ====================
+ The left corner circle is repeatedly drawn
+ 
+ Any sources referred to during the development of the assignment.
+ 
+ https://docs.kogics.net/tutorials/generative-art-grid-intro.html
+ https://forum.processing.org/two/discussion/16700/how-to-outline-text.html
+ https://happycoding.io/tutorials/processing/for-loops
+ 
+ */
+
 void setup () { //<>//
   //setup using rules set by assignment
   size (1280, 720);
@@ -360,57 +400,8 @@ void draw () {
   drawGrid();
   printMyDetails ();
 }
-
-/*
- Name :            Kate Molony
- Student Number:   20104127
- 
- Brief description of piece (1 or 2 sentences MAX):
- ===================================================
- The art piece follows a regular grid theme using light colours,
- rounded rectangles, circle targets and gridlines.
- 
- 
- Adobe Color Palette Used:
- =========================
- - LINK: https://color.adobe.com/explore?page=2
- - color 1: babyBlue (189, 228, 255)
- - color 2: darkBlue (134, 152, 217)
- - color 3: lilac (174, 161, 240)
- - color 4: purple (180, 132, 217)
- - color 5: pink (245, 150, 250)
- - color WHITE: (255)
- 
- Instructions:
- =============
- - Pressing any key causes the circles to change position
- - Pressing the Right mouse button saves the assignment .PNG
- - Pressing the Left mouse button causes the rectangles to change wight and height
- - Hoovering the mouse over text will cause the text to repeat
- - Pressing the mouse over the text on either the top or bottom of the
- screen will cause the text to change colour
- 
- Known bugs/problems:
- ====================
- The left corner circle is repeatedly drawn
- 
- Any sources referred to during the development of the assignment.
- 
- https://docs.kogics.net/tutorials/generative-art-grid-intro.html
- https://forum.processing.org/two/discussion/16700/how-to-outline-text.html
- https://happycoding.io/tutorials/processing/for-loops
- 
- */
  
  /* Reflection
- 
- ** EXAMPLE ONLY **
- ** REPLACE THIS ENTIRE TEMPLATE WITH THE DETAILS HANDED IN WEEK 2 OF THE ASSIGNMENT**
- ******************
- 
- Name :            Kate Molony
- 
- Student Number:   20104127
  
  Part A - Mark (X /5)
  -----------------------------
