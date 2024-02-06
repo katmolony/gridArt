@@ -12,7 +12,7 @@ Showing use of
 * for/while/do while loops
 * nesting loops
 
-![Grid Art Image](assignment.png)
+![Grid Art Image](assignment.PNG)
 
  Brief description of piece:
  ===================================================
